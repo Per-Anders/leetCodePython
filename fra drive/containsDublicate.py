@@ -12,5 +12,6 @@ def containsDuplicate(nums):
     return False 
 
 
-print(containsDuplicate(nums))
+# print(containsDuplicate(nums))
+
 

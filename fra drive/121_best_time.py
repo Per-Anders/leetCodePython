@@ -8,7 +8,7 @@ def maxProfit(prices):
     l, r = 0, 1 # left = buying, right is selling
     maxP = 0
 
-    while r <len(prices):
+    while r < len(prices):
         #profitable?
         if prices[l] < prices[r]:
             profit = prices[r] - prices[l]
@@ -19,4 +19,6 @@ def maxProfit(prices):
     return maxP
 
 
-print(maxProfit(prices))
+# print(maxProfit(prices))
+
+

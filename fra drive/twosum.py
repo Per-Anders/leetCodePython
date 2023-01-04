@@ -27,18 +27,7 @@ def twoSum(arr, target):
         # {2: 0}
     return 
 
-# print(twoSum(arr,target))
 
-# def twoSum(arr, target):
-#     hm = {}
-#     for i, n in enumerate(arr):
-#         diff = target - n
-#         if diff in hm:
-#             return [hm[diff], i]
-#         hm[n] = i 
-#     return 
-
-# print(twoSum(arr,target))
 
 
 

@@ -1,7 +1,7 @@
 # Binary search virker bare på sorterte arrayss
 
 arr = [1,2,3,4,5,6]
-target = 3
+target = 1
 
 def binarySearch(arr, target):
     left = 0
@@ -19,10 +19,8 @@ def binarySearch(arr, target):
     return -1
 
 
-result = binarySearch(arr, target) # index: 5
+print(target,"is at index:",binarySearch(arr, target)) # index: 5
 
-if result != -1:
-    print("Element is present at index:", result)
-else:
-    print("Element is not present in the array")
+
+
 
