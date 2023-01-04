@@ -29,9 +29,18 @@ def twoSum(arr, target):
 
 # print(twoSum(arr,target))
 
-arr = [2,7,9,10]
-for i, n in enumerate(arr):
-    print(i, n)
+# def twoSum(arr, target):
+#     hm = {}
+#     for i, n in enumerate(arr):
+#         diff = target - n
+#         if diff in hm:
+#             return [hm[diff], i]
+#         hm[n] = i 
+#     return 
+
+# print(twoSum(arr,target))
+
+
 
 
 
