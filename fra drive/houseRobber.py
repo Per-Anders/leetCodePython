@@ -3,7 +3,7 @@
 
 nums = [1,3,5,1]
 
-def rob(self):
+def rob(nums):
     rob1, rob2 = 0,0
 
     for n in nums:

@@ -1,6 +1,3 @@
-arr = [80,-50,90,100]
-k = 2
-
 def maxSum(arr,windowSize):
     arraySize = len(arr)
     if(arraySize <= windowSize):
@@ -16,5 +13,5 @@ def maxSum(arr,windowSize):
     
     return max_sum
 
-answer = maxSum(arr, k)
-print(answer)
+
+print(maxSum([80,-50,90,100], 2))

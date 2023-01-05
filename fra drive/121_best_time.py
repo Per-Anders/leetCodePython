@@ -19,6 +19,6 @@ def maxProfit(prices):
     return maxP
 
 
-# print(maxProfit(prices))
+print(maxProfit(prices))
 
 
